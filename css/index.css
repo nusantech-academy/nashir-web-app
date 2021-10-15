@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+/* navbar */
+nav {
+  position: sticky;
+  display: flex;
+  background: #fa471f;
+  justify-content: space-between;
+  padding: 0 30px;
+  height: 80px;
+  align-items: center;
+  color: white;
+}
+
+nav .logo {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 20%;
+  justify-content: space-between;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+/* bg tengah + tulisan */
+
+.bg-tengah p {
+  text-align: center;
+  position: relative;
+  margin-top: 300px;
+  font-size: 72px;
+  color: white;
+}
+
+.bg-tengah {
+  position: absolute;
+  width: 1440px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+  z-index: -2;
+  background: url(default-banner.png);
+}
+
+/* about */
+
+.about {
+  margin-top: 870px;
+  margin-left: 62px;
+}
+
+.about h1 {
+  color: #fa471f;
+  font-size: 48px;
+}
+
+.about p {
+  width: 1156px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* best week */
+
+.best-week h1 {
+  font-size: 48px;
+  color: #fa471f;
+  margin-top: 100px;
+  margin-left: 62px;
+}
+
+.best-image {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 40px;
+  flex-wrap: wrap;
+}
+
+.best img {
+  width: 212px;
+  height: 320px;
+  box-sizing: border-box;
+  margin: 20px;
+  transition: 0.5s;
+}
+
+.best img:hover {
+  transform: scale(1.15);
+}
+
+/* film anak-anak */
+.film-anak h1 {
+  font-size: 48px;
+  color: #fa471f;
+  margin-top: 100px;
+  margin-left: 62px;
+}
+
+.anak-image {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 40px;
+  flex-wrap: wrap;
+}
+
+.anak img {
+  width: 212px;
+  height: 320px;
+  box-sizing: border-box;
+  margin: 20px;
+  transition: 0.5s;
+}
+
+.anak img:hover {
+  transform: scale(1.15);
+}
+
+/* kontak */
+
+.kontak {
+  margin-top: 100px;
+}
+.kontak img {
+  width: 720px;
+  height: 506px;
+}
+
+.kontak h1 {
+  position: absolute;
+  left: 780px;
+  top: 2800px;
+  font-size: 48px;
+  color: #fa471f;
+}
+
+.kontak p {
+  position: absolute;
+  left: 780px;
+  top: 2850px;
+  width: 550px;
+  font-size: 20px;
+  color: #fa471f;
+}
+
+.border {
+  position: absolute;
+  left: 780px;
+  top: 2950px;
+  width: 500px;
+  height: 40px;
+  border: 5px solid #fa471f;
+  border-radius: 10px;
+}
+
+.border h2 {
+  margin: 5px 10px;
+  font-size: 24px;
+  color: #fa471f;
+}
+
+.bg-kontak {
+  position: absolute;
+  left: 995px;
+  top: 3050px;
+  background: #fa471f;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.bg-kontak h3 {
+  text-align: center;
+  margin: 15px;
+  color: white;
+}
+
+/* footer */
+
+footer {
+  background: #fa471f;
+  position: absolute;
+  height: auto;
+  margin-top: 100px;
+  left: 0;
+  right: 0;
+  height: 315px;
+  color: white;
+}
+.footercontent {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footercontent p {
+  position: absolute;
+  line-height: 20px;
+  font-size: 14px;
+  bottom: 0;
+  font-size: 18px;
+}

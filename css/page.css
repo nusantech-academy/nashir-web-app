@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+  flex-wrap: wrap;
+}
+/* navbar */
+nav {
+  position: sticky;
+  display: flex;
+  background: #fa471f;
+  justify-content: space-between;
+  padding: 0 30px;
+  height: 80px;
+  align-items: center;
+  color: white;
+}
+
+nav .logo {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 20%;
+  justify-content: space-between;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+/* bg tengah + tulisan */
+
+.bg-img img {
+  width: 1400px;
+  height: 700px;
+}
+
+.judul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.judul h1 {
+  background-color: #fa471f;
+  position: relative;
+  color: white;
+  bottom: 450px;
+  font-size: 5em;
+}
+
+.judul h3 {
+  color: white;
+  font-size: 40px;
+  background-color: #fa471f;
+  position: relative;
+  bottom: 451px;
+}
+
+.judul h2 {
+  color: white;
+  font-size: 40px;
+  background-color: #fa471f;
+  position: relative;
+  bottom: 452px;
+}
+
+/* about */
+
+.about {
+  margin-left: 62px;
+}
+
+.about h1 {
+  color: #fa471f;
+  font-size: 48px;
+}
+
+.about p {
+  width: 1156px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+/* iframe */
+
+iframe {
+  width: 1300px;
+  height: 700px;
+  margin: 20px 20px;
+}
+
+.iframe h1 {
+  font-size: 48px;
+  color: #fa471f;
+  margin-top: 100px;
+  margin-left: 62px;
+}
+
+/* film lain */
+
+.best-week h1 {
+  font-size: 48px;
+  color: #fa471f;
+  margin-top: 100px;
+  margin-left: 62px;
+}
+
+.best-image {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 40px;
+}
+
+.best img {
+  width: 212px;
+  height: 320px;
+  box-sizing: border-box;
+  margin: 20px;
+  transition: 0.5s;
+}
+
+.best img:hover {
+  transform: scale(1.15);
+}
+
+/* footer */
+footer {
+  background: #fa471f;
+  position: absolute;
+  height: auto;
+  margin-top: 100px;
+  left: 0;
+  right: 0;
+  height: 315px;
+  color: white;
+}
+.footercontent {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footercontent p {
+  position: absolute;
+  line-height: 20px;
+  font-size: 14px;
+  bottom: 0;
+  font-size: 18px;
+}
